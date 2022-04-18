@@ -348,33 +348,13 @@ table {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 8px;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .properties .container__properties .container__properties--box .container__box:hover {
-  -webkit-animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-          animation: slide-top 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-@-webkit-keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
-  }
-}
-
-@keyframes slide-top {
-  0% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-  100% {
-    -webkit-transform: translateY(-20px);
-            transform: translateY(-20px);
-  }
+  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
+          box-shadow: #26394d 0px 20px 30px -10px;
 }
 
 .properties .container__properties .container__properties--box .container__box .container__box--img {
@@ -469,8 +449,9 @@ table {
 
 .properties .container__properties .container__properties--box .container__box .container__box--info01 .divisao {
   margin-top: 15px;
-  height: 4px;
-  width: 80%;
+  height: 3px;
+  width: 50%;
+  border-radius: 50px;
   background-color: #59E4E1;
 }
 
