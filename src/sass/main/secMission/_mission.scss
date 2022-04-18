@@ -1,0 +1,44 @@
+@import '../../variaveis/var';
+
+.mission{
+    background-color: $color--02;
+    .container__mission{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      
+        .container__mission--presentation{
+            height: auto;
+            padding: 35px 40px;
+            color: $color--01;
+            font-family: $font-primary;
+
+            h3{
+                font-size: 3em;
+                font-weight: bold;
+                padding-bottom: 15px;
+                
+            }
+            span{
+                color: $color--04;
+                font-size: 1.8em;
+                font-weight: bold;
+                line-height: 55px;
+            }
+         
+            .container__presentation--01{
+                box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;                
+                padding: 20px 20px;
+                display: flex;
+                max-width: 100%;
+                //justify-content: center;
+                align-items: center;
+                border-radius: 8px;
+                height: 60px;
+                margin-bottom: 15px;
+
+                
+            }
+        }
+    }
+}

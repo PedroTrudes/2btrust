@@ -1,0 +1,27 @@
+BUSCAR MONTAR UMA ARQUITETURA O MAIS CLEAN POSSIVEL
+uso forte da cor branca
+
+
+// TELAS PARA SEGUIR //
+
+{
+    https://www.lofty.ai/
+}
+
+// VARIAVEIS //
+
+{
+    cor de texto: #3675F0;
+    cor logo azul claro: #59E4E1;
+    cor de fundo cinza: #9A9A9A;
+    cor de fundo branca:  #F5F5F5;
+}
+
+
+// Estrutura de paginas no SASS //
+
+{
+     cabeçalho: "header"{
+
+     }
+}

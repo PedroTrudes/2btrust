@@ -1,0 +1,50 @@
+@import '../../variaveis/var';
+
+.container__banner{
+    height: 750px;
+    display: flex;
+    padding:0px 35px;
+    box-shadow: rgba(0, 0, 0, 0.199) 0px 1px 2px 0px;
+
+    .container__banner--text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 0px 40px;
+        font-family: $font-primary;
+        color: $color--01;
+        border-bottom-left-radius: 9px;
+        border-bottom-right-radius: 9px;
+        margin-bottom: 65px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+
+        h2 {
+            font-size: 5em;
+            max-width: 690px;
+            font-weight: bold;
+            line-height: 110px;
+        }
+
+        p {
+            margin-top: 15px;
+            line-height: 45px;
+            font-size: 1.8em;
+            max-width: 350px;
+        }
+
+        button{
+            font-family: $font-primary;
+            margin-top: 35px;
+            width: 25%;
+            height: 60px;
+            border: none;
+            border-radius: 30px;
+            background-color: #15285B;
+            color: white;
+            font-size: 1.3em;
+            font-weight: bold;
+        }
+
+    }
+}

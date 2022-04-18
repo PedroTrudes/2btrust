@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.container__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  padding: 0px 25px;
+}
+
+.container__header .container__header--logo img {
+  width: 170px;
+}
+
+.container__header .container__header--nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__header .container__header--nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container__header .container__header--nav ul li {
+  margin-right: 18px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.container__header .container__header--nav ul li a {
+  text-decoration: none;
+  color: #15285B;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.container__header .container__header--nav ul li a:hover {
+  color: #59E4E1;
+}
+
+.container__header .container__header--nav button {
+  margin-right: 15px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 30px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #15285B;
+  color: #59E4E1;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+
+.container__header .container__header--nav button:last-child {
+  margin-right: 0px;
+}
+
+.container__header .container__header--nav button:hover {
+  background-color: #c7c7c7;
+  border: 1px solid #15285B;
+}
+
+.container__banner {
+  height: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 35px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.199) 0px 1px 2px 0px;
+          box-shadow: rgba(0, 0, 0, 0.199) 0px 1px 2px 0px;
+}
+
+.container__banner .container__banner--text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  padding: 0px 40px;
+  font-family: "Merriweather", serif;
+  color: #15285B;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+  margin-bottom: 65px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.container__banner .container__banner--text h2 {
+  font-size: 5em;
+  max-width: 690px;
+  font-weight: bold;
+  line-height: 110px;
+}
+
+.container__banner .container__banner--text p {
+  margin-top: 15px;
+  line-height: 45px;
+  font-size: 1.8em;
+  max-width: 350px;
+}
+
+.container__banner .container__banner--text button {
+  font-family: "Merriweather", serif;
+  margin-top: 35px;
+  width: 25%;
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  background-color: #15285B;
+  color: white;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.mission {
+  background-color: #F5F5F5;
+}
+
+.mission .container__mission {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mission .container__mission .container__mission--presentation {
+  height: auto;
+  padding: 35px 40px;
+  color: #15285B;
+  font-family: "Merriweather", serif;
+}
+
+.mission .container__mission .container__mission--presentation h3 {
+  font-size: 3em;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.mission .container__mission .container__mission--presentation span {
+  color: #59E4E1;
+  font-size: 1.8em;
+  font-weight: bold;
+  line-height: 55px;
+}
+
+.mission .container__mission .container__mission--presentation .container__presentation--01 {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
+          box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, #d1d5db 0px 0px 0px 1px inset;
+  padding: 20px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 8px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*# sourceMappingURL=main.css.map */
