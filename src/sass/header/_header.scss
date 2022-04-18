@@ -46,23 +46,24 @@ header{
         }
 
         button {
-            margin-right: 15px;
+            margin-right: 5px;
             border: none;
             border-radius: 5px;
             width: 150px;
-            height: 30px;
+            height: 40px;
             font-size: 1.2em;
             font-weight: bold;
-            background-color: #15285B;
+            background-color: transparent;
             color: #59E4E1;
             transition: 1s ease;
+            
             
             &:last-child {
                 margin-right: 0px;
             }
             &:hover{
-                background-color: rgb(199, 199, 199);
-                border: 1px solid #15285B;
+                background-color: #15285B;
+                border: none;
             }
         }
        

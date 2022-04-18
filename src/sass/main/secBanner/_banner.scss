@@ -2,11 +2,16 @@
 
 .container__banner{
     height: 750px;
+    width: 94.7%;
     display: flex;
     padding:0px 35px;
     box-shadow: rgba(0, 0, 0, 0.199) 0px 1px 2px 0px;
 
     .container__banner--text{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -20,6 +25,13 @@
         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 
         h2 {
+            background-image: linear-gradient(to top, #08165d, #9383ff);
+            color: black;
+            background-clip: text;
+            -webkit-background-clip: text;
+
+  /* Adicionado: */
+            -webkit-text-fill-color: transparent;
             font-size: 5em;
             max-width: 690px;
             font-weight: bold;
@@ -29,8 +41,8 @@
         p {
             margin-top: 15px;
             line-height: 45px;
-            font-size: 1.8em;
-            max-width: 350px;
+            font-size: 1.5em;
+            max-width: 450px;
         }
 
         button{
@@ -40,7 +52,7 @@
             height: 60px;
             border: none;
             border-radius: 30px;
-            background-color: #15285B;
+            background-color: #4D3FED;
             color: white;
             font-size: 1.3em;
             font-weight: bold;

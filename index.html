@@ -1,90 +1,155 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/sass/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/sass/main.css" />
     <title>2Btrust</title>
-</head>
-<body>
-        <header>
-            <div class="container__header">
-                <div class="container__header--logo">
-                    <a href="#">
-                    <img src="src/img/gif/logo@2x.gif" alt="Logo 2btrust">
-                </a>
-                </div>
-                <div class="container__header--nav">
-                    <ul>
-                        <li>
-                            <a href="#">
-                            Investiments
-                        </a></li>
-                        <li>
-                            <a href="#">
-                            Legal
-                        </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                            Contact
-                        </a>
-                    </li>
-                    </ul>
-                    <button class="header__btn--entrar">
-                        Entrar
-                    </button>
-                    <button class="header__btn--registrar">
-                        Cadastrar
-                    </button>
-                </div>
+  </head>
+  <body>
+    <header>
+      <div class="container__header">
+        <div class="container__header--logo">
+          <a href="#">
+            <img src="src/img/gif/logo@2x.gif" alt="Logo 2btrust" />
+          </a>
+        </div>
+        <div class="container__header--nav">
+          <ul>
+            <li>
+              <a href="#"> Investiments </a>
+            </li>
+            <li>
+              <a href="#"> Legal </a>
+            </li>
+            <li>
+              <a href="#"> Contact </a>
+            </li>
+          </ul>
+          <button class="header__btn--entrar">Login</button>
+          <button class="header__btn--registrar">Sing in</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="container__banner">
+        <div
+          class="container__banner--text"
+          style="background-image: url(src/img/fundos/banner-01.png)"
+        >
+          <h2>Future of real estate investing</h2>
+          <p>Invest in tokenized real estate for only $50 and sell anytime.</p>
+
+          <button>View Properties</button>
+        </div>
+      </section>
+
+      <section class="mission">
+        <div class="container__mission">
+          <div class="container__mission--img">
+            <img
+              src="src/img/fundos/casa-fundo.png"
+              alt="Imagem de apresentação"
+            />
+          </div>
+          <div class="container__mission--presentation">
+            <h2>Investing in real estate has never been easier</h2>
+            <div class="container__presentation--01">
+              <h3>Browse properties</h3>
+              <p>
+                View detailed financial data, inspection reports, and more. All
+                property documents are publicly available, E.g., 3139 West Blvd
+              </p>
             </div>
-        </header>
+            <div class="container__presentation--01">
+              <h3>Select property</h3>
+              <p>
+                Purchase tokens for $50 each and become a direct owner. Get your
+                first rental payment that same day.
+              </p>
+            </div>
+            <div class="container__presentation--01">
+              <h3>Earn appreciation and sell anytime</h3>
+              <p>
+                Tokens appreciate on a monthly basis as the property
+                appreciates. Sell your tokens anytime. No lock-up periods.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <main>
-            <section class="container__banner">
-                <div class="container__banner--text">
-                    <h2>Welcome to the future
-                        of real estate
-                        investing</h2>
-                    <p>Growing your wealth
-                        is easier than you think.</p>
+      <section class="properties">
+          <div class="container__properties">
+              <h2>Featured Properties</h2>
 
-                    <button>Get Started</button>
-                </div>
-            </section>
+              <div class="container__properties--box">
 
-            <section class="mission">
-                <div class="container__mission">
-                    <div class="container__mission--img">
-                        <img src="src/img/2b.png" alt="Imagem de apresentação">
+                  <div class="container__box">
+                        <div class="container__box--img">
+                            <img src="src/img/house/house-01.jpg" alt="imagens de propriedades">
+                        </div>
+                        <div class="container__box--info01">
+                            <div class="container__box--text">
+                                <p>titulos das propriedades</p>
+                                <p id="local">local do imovel</p>
+                            </div>
+                            <div class="container__box--dados">
+                                <p id="dados">
+                                    18.32% IRR
+                                </p>
+                                <p id="dados--coc"> 8.32% CoC</p>
+                            </div>
+                        </div>
+                  </div>
+                  <div class="container__box">
+                    <div class="container__box--img">
+                        <img src="src/img/house/house-02.jpg" alt="imagens de propriedades">
                     </div>
-                    <div class="container__mission--presentation">
-                        <h3>Why 2BTRUST</h3>
-                        <span>We are an independent US real estate investing Platform.</span>
-                            <div class="container__presentation--01">
-                                <p>Our mission is to combine state-of-the-art technology with in-house 
-                                expertise to reduce fees and maximize your long-term return potential.</p>
-                            </div>
-                            <div class="container__presentation--01">
-                                <p>2BTRUST provides transparency 
-                                about what you really own. Created to help intelligent investors invest smarter.</p>
-                            </div>
-                            <div class="container__presentation--01">
-                                <p>We align our interest with integrity when investing while providing a 
-                                streamlined investor experience.</p>
-                            </div>
-                            <div class="container__presentation--01">
-                                <p>Our principles focus is our commitment to our partners.</p>
-                            </div>
-                            
+                    <div class="container__box--info01">
+                        <div class="container__box--text">
+                            <p>titulos das propriedades</p>
+                            <p id="local">local do imovel</p>
+                        </div>
+                        <div class="container__box--dados">
+                            <p id="dados">
+                                16.95% IRR
+                            </p>
+                            <p id="dados--coc"> 8.95% CoC</p>
+                        </div>
                     </div>
-                </div>
-            </section>
-            <section>
+                  </div>
+                  
+                  <div class="container__box">
+                    <div class="container__box--img">
+                        <img src="src/img/house/house-03.jpg" alt="imagens de propriedades">
+                    </div>
+                    <div class="container__box--info01">
+                        <div class="container__box--text">
+                            <p>titulos das propriedades</p>
+                            <p id="local">local do imovel</p>
+                        </div>
+                        <div class="container__box--dados">
+                            <p id="dados">
+                                18.21% IRR
+                            </p>
+                            <p id="dados--coc"> 7.21% CoC</p>
+                        </div>
+                    </div>
+                  </div>
+              </div>
 
-            </section>
-        </main>
-</body>
+              <div class="container__properties--btn">
+                  <div class="properties--btn">
+                      <a href="#">
+                          View All Properties
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </section>
+    </main>
+  </body>
 </html>
