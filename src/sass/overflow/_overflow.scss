@@ -1,0 +1,70 @@
+@import '../../sass/variaveis/var';
+
+.overflow{
+    overflow: hidden;
+    border: 1px solid $color--04;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+    .overflow-hidden{
+        background-color: $color--01;
+        padding-left: 50%;
+        overflow: hidden;
+        width: 100%;
+        .inline-itens{
+            padding: 1.5em 0;
+            padding-right: 50%;
+            display: inline-flex;
+
+            .itens{
+                padding: 0 2rem;
+                justify-content: center;
+                align-items: center;
+                height: 2.5rem;
+                display: flex;
+                font-size: 1.25rem;
+                line-height: 1.75rem;
+                //font-family: $font-primary;
+                animation: sticker 85s linear infinite ;
+                white-space: nowrap;
+                border-left:  1px solid $color--02;
+
+
+
+                #local{
+                   color: $color--04;
+                    margin-right: auto;
+                    font-weight: bold;
+                }
+                #valor{
+                    color: $color--04;
+                    padding: 0px 25px;
+                }
+                #taxa{
+                    color:  #4FED9A ;
+                    padding: 0 25px;
+                }
+                img{
+                    height: 20px;
+                }
+
+             
+
+            }
+        }
+    }
+}
+
+@keyframes sticker {
+    0% {
+        transform: translateX(0px);
+
+    }
+    50% {
+        transform: translateX(-4050px);
+    }
+
+    100%{
+        transform: translateX(4050px);
+    }
+   
+}

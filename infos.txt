@@ -24,4 +24,15 @@ uso forte da cor branca
      cabeçalho: "header"{
 
      }
+
+     main: {
+
+     }
+
+     footer: {
+         
+     }
 }
+
+Criação de um site de apresentação de uma plataforma de fundos imobiliarios para a 2btrust
+
