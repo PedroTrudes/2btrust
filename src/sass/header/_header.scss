@@ -1,7 +1,9 @@
+@import '../variaveis/var';
 header{
     position: sticky;
     top: 0;
     background-color: #fff;
+    z-index: 15;
 }
 .container__header{
     display: flex;
@@ -54,15 +56,15 @@ header{
             font-size: 1.2em;
             font-weight: bold;
             background-color: transparent;
-            color: #59E4E1;
-            transition: 1s ease;
-            
+            color: #002BE8;            ;
+            transition: 0.6s ease;
+            border: 1px solid $color--03;
             
             &:last-child {
                 margin-right: 0px;
             }
             &:hover{
-                background-color: #15285B;
+                background-color: $color--03;
                 border: none;
             }
         }
