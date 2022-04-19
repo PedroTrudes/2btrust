@@ -8,6 +8,7 @@
     background-color: $color--02;
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 .container__contributors {
@@ -69,7 +70,7 @@
     font-family: $font-primary;
     margin-bottom: 25px;
     line-height: 45px;
-    color: $color--04;
+    color: $color--02;
 }
 
 .cards--info p{

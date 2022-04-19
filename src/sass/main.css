@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -649,6 +650,7 @@ table {
   background-color: #F5F5F5;
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .container__contributors {
@@ -734,7 +736,7 @@ table {
   font-family: "Merriweather", serif;
   margin-bottom: 25px;
   line-height: 45px;
-  color: #59E4E1;
+  color: #F5F5F5;
 }
 
 .cards--info p {
@@ -810,4 +812,111 @@ table {
     margin-bottom: 10px;
 }
 */
+.invest {
+  height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #EEF5F7;
+}
+
+.invest .container__invest {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 35px 0px;
+}
+
+.invest .container__invest h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+  margin-bottom: 45px;
+}
+
+.invest .container__invest .container__invest--cards {
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 700px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.invest .container__invest .container__invest--cards .invest--cards {
+  width: 33.17%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.invest .container__invest .container__invest--cards .invest--cards .invest--cards--img img {
+  margin-bottom: 35px;
+  height: 60px;
+}
+
+.invest .container__invest .container__invest--cards .invest--cards .invest--cards--infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 15px;
+}
+
+.invest .container__invest .container__invest--cards .invest--cards .invest--cards--infos h3 {
+  font-size: 1.5em;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  color: #15285B;
+  margin-bottom: 15px;
+}
+
+.invest .container__invest .container__invest--cards .invest--cards .invest--cards--infos p {
+  max-width: 80%;
+  font-size: 1.1em;
+  font-family: "Merriweather", serif;
+  color: #15285B;
+}
 /*# sourceMappingURL=main.css.map */
