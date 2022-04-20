@@ -8,6 +8,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -1682,6 +1685,7 @@ nav ul li a:hover {
 
 .decentralized .container__decentralized .decentralized--txt p {
   font-size: 1.4em;
+  line-height: 40px;
 }
 
 .decentralized .container__decentralized .decentralized--img {
@@ -1690,5 +1694,212 @@ nav ul li a:hover {
 
 .decentralized .container__decentralized .decentralized--img img {
   height: 400px;
+}
+
+.blockchain {
+  background-color: #07183C;
+  height: 500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Merriweather", serif;
+}
+
+.blockchain .container__blockchain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 400px;
+  width: 100%;
+}
+
+.blockchain .container__blockchain .blockchain--txt {
+  color: #F5F5F5;
+  width: 40%;
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blockchain .container__blockchain .blockchain--txt h3 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 30px 0px;
+}
+
+.blockchain .container__blockchain .blockchain--txt p {
+  font-size: 1.4em;
+  line-height: 40px;
+}
+
+.blockchain .container__blockchain .blockchain--img {
+  height: auto;
+}
+
+.blockchain .container__blockchain .blockchain--img img {
+  height: 400px;
+}
+
+.start {
+  background-image: url(https://www.lofty.ai/static/media/background-bottom.cdf461aaf0731919fcd7.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.start .container__start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 700px;
+  width: 100%;
+  font-family: "Merriweather", serif;
+}
+
+.start .container__start h2 {
+  font-size: 3em;
+  color: #F5F5F5;
+  font-weight: bold;
+  text-align: center;
+  max-width: 40%;
+  line-height: 65px;
+  margin-bottom: 45px;
+}
+
+.start .container__start .container__start--btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.start .container__start .container__start--btn a {
+  text-decoration: none;
+  color: #F5F5F5;
+  padding: 25px 55px;
+  border-radius: 58px;
+  background-color: #5A74ED;
+}
+
+.baseboard {
+  background-color: #07183C;
+  color: #F5F5F5;
+  padding: 0px 45px;
+  height: auto;
+  height: 600px;
+}
+
+.baseboard .container__baseboard {
+  height: 500px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.baseboard .container__baseboard .baseboard--links {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.baseboard .container__baseboard .baseboard--links a {
+  padding: 15px;
+  font-size: 1.5em;
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+.baseboard .container__baseboard .baseboard--btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  width: 100%;
+  margin-bottom: 45px;
+}
+
+.baseboard .container__baseboard .baseboard--btn .btn {
+  margin-right: 45px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.baseboard .container__baseboard .baseboard--btn .btn img {
+  height: 35px;
+}
+
+.baseboard .container__baseboard .baseboard--text {
+  font-size: 0.8em;
+  line-height: 25px;
+  padding: 5px 35px;
 }
 /*# sourceMappingURL=main.css.map */

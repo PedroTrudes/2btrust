@@ -1,26 +1,25 @@
 @import '../../variaveis/var';
 
-.decentralized {
-    background-image: url(https://www.lofty.ai/static/media/background-report.197b5abc91fdd5eb796f.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 900px;
+.blockchain {
+
+    background-color: #07183C;
+    height: 500px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: $font-primary;
 
-    .container__decentralized{
+    .container__blockchain{
         display: flex;
         align-items: end;
+        flex-direction: row-reverse;
         justify-content: space-evenly;
        // border: 1px solid yellow;
-        height: 800px;
+        height: 400px;
         width: 100%;
 
-        .decentralized--txt{
+        .blockchain--txt{
             //border: 1px solid red;
             color: $color--02;
             width: 40%;
@@ -40,7 +39,7 @@
             }
 
         }
-        .decentralized--img{
+        .blockchain--img{
             //width: 50%;
             height: auto;
 
