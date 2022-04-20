@@ -219,3 +219,41 @@
 
 }
 
+
+@media (max-width: 500px){
+    .properties{
+        height: 2000px;
+
+        .container__properties{
+            h2{
+                font-size: 2em;
+                height: auto;
+
+            }
+
+            .container__properties--box{
+                margin-top: 35px;
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                width: 100%;
+            
+                .container__box{
+                    width: 90vw;
+                    margin: 15px 0px;
+                }
+
+            }
+
+            .container__properties--btn{
+                width: 100%;
+                padding: 55px 0px;
+
+                .properties--btn{
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+}

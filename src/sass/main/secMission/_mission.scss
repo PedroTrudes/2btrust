@@ -64,3 +64,43 @@
         }
     }
 }
+
+@media (max-width: 500px){
+    .mission{
+        height: auto;
+        .container__mission{
+            display: flex;
+            flex-direction: column;
+            .container__mission--img{
+                img{
+                    width: 90%;
+                }
+            }
+
+            .container__mission--presentation{
+                padding: 8px;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                h2 {
+                    font-size: 1.2em;
+                }
+
+                .container__presentation--01{
+                    width: 92vw;
+                    padding: 25px 10px;
+
+                    h3{
+                        font-size: 1.3em;
+                    }
+                    p{
+                        font-size: 1em;
+                    }
+                }
+            
+        }
+      
+    }
+    }
+}

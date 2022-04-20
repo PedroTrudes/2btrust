@@ -90,7 +90,14 @@ header {
   border: none;
 }
 
+@media (max-width: 500px) {
+  header .container__header {
+    display: none;
+  }
+}
+
 .container__banner {
+  background: none;
   height: 750px;
   width: 94.7%;
   display: -webkit-box;
@@ -158,6 +165,64 @@ header {
   color: white;
   font-size: 1.3em;
   font-weight: bold;
+}
+
+.container__banner .container__banner--text .container__banner--img {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .container__banner {
+    height: auto;
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0px;
+    background-color: #DCDEF9;
+  }
+  .container__banner .container__banner--text {
+    width: 100vw;
+    padding: 45px 0px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .container__banner .container__banner--text h2 {
+    padding-left: 25px;
+    font-size: 1.5em;
+    max-width: 60vw;
+    line-height: 25px;
+  }
+  .container__banner .container__banner--text p {
+    padding-left: 25px;
+    font-size: 1em;
+    max-width: 60vw;
+    line-height: 15px;
+  }
+  .container__banner .container__banner--text button {
+    margin-left: 25px;
+    width: 50%;
+    font-size: 1.1em;
+  }
+  .container__banner .container__banner--text .container__banner--img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .container__banner .container__banner--text .container__banner--img img {
+    width: 100%;
+    height: 300px;
+  }
 }
 
 .mission {
@@ -235,6 +300,53 @@ header {
 
 .mission .container__mission .container__mission--presentation .container__presentation--01 p {
   font-size: 1em;
+}
+
+@media (max-width: 500px) {
+  .mission {
+    height: auto;
+  }
+  .mission .container__mission {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mission .container__mission .container__mission--img img {
+    width: 90%;
+  }
+  .mission .container__mission .container__mission--presentation {
+    padding: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mission .container__mission .container__mission--presentation h2 {
+    font-size: 1.2em;
+  }
+  .mission .container__mission .container__mission--presentation .container__presentation--01 {
+    width: 92vw;
+    padding: 25px 10px;
+  }
+  .mission .container__mission .container__mission--presentation .container__presentation--01 h3 {
+    font-size: 1.3em;
+  }
+  .mission .container__mission .container__mission--presentation .container__presentation--01 p {
+    font-size: 1em;
+  }
 }
 
 html, body, div, span, applet, object, iframe,
@@ -548,6 +660,39 @@ table {
   font-size: 1.5em;
   font-weight: 600;
   color: #F5F5F5;
+}
+
+@media (max-width: 500px) {
+  .properties {
+    height: 2000px;
+  }
+  .properties .container__properties h2 {
+    font-size: 2em;
+    height: auto;
+  }
+  .properties .container__properties .container__properties--box {
+    margin-top: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  .properties .container__properties .container__properties--box .container__box {
+    width: 90vw;
+    margin: 15px 0px;
+  }
+  .properties .container__properties .container__properties--btn {
+    width: 100%;
+    padding: 55px 0px;
+  }
+  .properties .container__properties .container__properties--btn .properties--btn {
+    width: 90%;
+  }
 }
 
 .overflow {
@@ -918,5 +1063,33 @@ table {
   font-size: 1.1em;
   font-family: "Merriweather", serif;
   color: #15285B;
+}
+
+@media (max-width: 500px) {
+  .invest {
+    height: 1500px;
+    width: 100%;
+    -webkit-box-align: inherit;
+        -ms-flex-align: inherit;
+            align-items: inherit;
+    -webkit-box-pack: inherit;
+        -ms-flex-pack: inherit;
+            justify-content: inherit;
+  }
+  .invest .container__invest {
+    height: 1000px;
+    padding: 0px;
+  }
+  .invest .container__invest h2 {
+    font-size: 2em;
+    max-width: 350px;
+  }
+  .invest .container__invest .container__invest--cards {
+    width: 100%;
+  }
+  .invest .container__invest .container__invest--cards .invest--cards {
+    width: 100%;
+    margin-bottom: 35px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

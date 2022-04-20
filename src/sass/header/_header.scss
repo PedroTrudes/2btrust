@@ -73,3 +73,12 @@ header{
 
     }
 }
+
+@media (max-width: 500px) {
+    header{
+
+        .container__header{
+            display: none;
+        }
+    }
+}
