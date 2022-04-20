@@ -139,3 +139,39 @@
     margin-bottom: 10px;
 }
 */
+
+
+@media (max-width: 500px) {
+    .contributors {
+        .container__contributors{
+            height: 500px;
+
+            .contributors--cards{
+
+                display: flex;
+                flex-direction: column;
+                height: 400px;
+                margin-right: 80px;
+                margin-top: 40px;
+                margin-bottom: 40px;
+
+                .cards--img{
+                    width: 60%;
+                    height: 200px;
+                    align-items: flex-start;
+                    box-shadow: none;
+                    img{
+                        height: 300px;
+                    }
+                }
+                .cards--info{
+                    height: 180px;
+                    h3{
+                        font-size: 1.5em;
+                        line-height: 25px;
+                    }
+                }
+            }
+        }
+    }
+}

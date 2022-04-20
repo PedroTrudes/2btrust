@@ -240,7 +240,16 @@
             
                 .container__box{
                     width: 90vw;
+                    height: 500px;
                     margin: 15px 0px;
+                    .container__box--img{
+                        height: 225px;
+
+                        img{
+
+                            height: 225px;
+                        }
+                    }
                 }
 
             }
