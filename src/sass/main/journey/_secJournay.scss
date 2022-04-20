@@ -1,0 +1,52 @@
+@import '../../variaveis/var';
+
+.journey{
+    font-family: $font-primary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 100%;
+    background-color: #EEF5F7;
+    h3{
+        font-size: 2em;
+        font-weight: bold;
+        color: $color--01;
+      //  margin-bottom: 65px;
+    }
+
+    .container__journey{
+      //  margin: 45px 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: $color--01;
+
+        .container__journey--infos{
+            //border: 1px solid yellow;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+
+            h4{
+                font-size: 2.5em;
+                font-family: sans-serif;
+                font-weight: bold;
+                margin-bottom: 25px;
+            }
+
+            p{
+                font-size: 1.2em;
+                max-width: 65%;
+                font-weight: bold;
+                line-height: 30px;
+            }
+        }
+    }
+    
+}
