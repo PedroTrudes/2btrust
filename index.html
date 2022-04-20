@@ -9,6 +9,32 @@
   </head>
   <body>
     <header>
+
+      <nav>
+        <img src="src/img/gif/logo@2x.gif" alt="2Btrust Logo" />
+
+        <div class="container">
+          <input type="checkbox" id="checkbox-menu" />
+
+          <label for="checkbox-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#properties">Properties</a></li>
+            <li><a href="#contributors">Contributors</a></li>
+            <li><a href="#invest">Invest</a></li>
+            <li><a href="#" id="btn-login">Login</a></li>
+
+          </ul>
+
+        </div>
+      </nav>
+
+      <!--
       <div class="container__header">
         <div class="container__header--logo">
           <a href="#">
@@ -33,14 +59,14 @@
               <a href="#"> Account </a>
             </li>
           </ul>
-          <button class="header__btn--entrar">Login</button>
-          <button class="header__btn--registrar">Sing in</button>
+          
         </div>
       </div>
+      -->
     </header>
 
     <main>
-      <section class="container__banner">
+      <section class="container__banner" id="home">
         <div class="container__banner--text">
           <h2>Future of real estate investing</h2>
           <p>Invest in tokenized real estate for only $50 and sell anytime.</p>
@@ -142,7 +168,7 @@
         </div>
       </section>
 
-      <section class="mission">
+      <section class="mission" id="mission">
         <div class="container__mission">
           <div class="container__mission--img">
             <img
@@ -177,7 +203,7 @@
         </div>
       </section>
 
-      <section class="properties">
+      <section class="properties" id="properties">
         <div class="container__properties">
           <h2>Featured Properties</h2>
 
@@ -278,6 +304,7 @@
 
       <section
         class="contributors"
+        id="contributors"
         style="background-image: url(src/img/fundos/fundo02.png)"
       >
         <button class="pre-btn">
@@ -327,7 +354,7 @@
         </div>
       </section>
 
-      <section class="invest">
+      <section class="invest" id="invest">
         <div class="container__invest">
           <h2>The best way to invest in real estate</h2>
 
