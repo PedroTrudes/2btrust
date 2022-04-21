@@ -721,8 +721,6 @@ table {
 .overflow {
   overflow: hidden;
   border: 1px solid #59E4E1;
-  -webkit-box-shadow: #26394d 0px 20px 30px -10px;
-          box-shadow: #26394d 0px 20px 30px -10px;
 }
 
 .overflow .overflow-hidden {
@@ -778,6 +776,12 @@ table {
 
 .overflow .overflow-hidden .inline-itens .itens img {
   height: 20px;
+}
+
+@media (max-width: 500px) {
+  .overflow {
+    width: 100%;
+  }
 }
 
 @-webkit-keyframes sticker {

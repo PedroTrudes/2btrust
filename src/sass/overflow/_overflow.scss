@@ -3,13 +3,13 @@
 .overflow{
     overflow: hidden;
     border: 1px solid $color--04;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 
     .overflow-hidden{
         background-color: $color--01;
         padding-left: 50%;
         overflow: hidden;
         width: 100%;
+
         .inline-itens{
             padding: 1.5em 0;
             padding-right: 50%;
@@ -52,6 +52,12 @@
             }
         }
     }
+}
+
+@media (max-width: 500px) {
+    .overflow{
+        width: 100%;
+    }    
 }
 
 @keyframes sticker {
