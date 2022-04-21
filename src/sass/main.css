@@ -1012,7 +1012,7 @@ table {
 }
 
 .invest {
-  height: 1000px;
+  height: 800px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1100,7 +1100,7 @@ table {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 700px;
+  height: auto;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -1192,6 +1192,12 @@ table {
   .invest .container__invest .container__invest--cards .invest--cards {
     width: 100%;
     margin-bottom: 35px;
+  }
+  .invest .container__invest .container__invest--btn {
+    width: 100%;
+  }
+  .invest .container__invest .container__invest--btn .invest--btn {
+    width: 80%;
   }
 }
 
@@ -1628,6 +1634,19 @@ nav ul li a:hover {
   line-height: 30px;
 }
 
+@media (max-width: 500px) {
+  .journey h3 {
+    padding-left: 25px;
+  }
+  .journey .container__journey .container__journey--infos h4 {
+    font-size: 1.3em;
+  }
+  .journey .container__journey .container__journey--infos p {
+    max-width: 100%;
+    font-size: 1.1em;
+  }
+}
+
 .decentralized {
   background-image: url(https://www.lofty.ai/static/media/background-report.197b5abc91fdd5eb796f.png);
   background-repeat: no-repeat;
@@ -1827,11 +1846,11 @@ nav ul li a:hover {
   background-color: #07183C;
   color: #F5F5F5;
   padding: 0px 45px;
-  height: auto;
   height: 600px;
 }
 
 .baseboard .container__baseboard {
+  padding-top: 55px;
   height: 500px;
   width: 100%;
   display: -webkit-box;

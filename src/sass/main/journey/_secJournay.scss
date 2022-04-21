@@ -50,3 +50,25 @@
     }
     
 }
+
+
+@media (max-width: 500px) {
+    .journey{
+        h3{
+            padding-left: 25px;
+        }
+        .container__journey{
+
+            .container__journey--infos{
+
+                h4{
+                    font-size: 1.3em;
+                }
+                p{
+                    max-width: 100%;
+                    font-size: 1.1em;
+                }
+            }
+        }
+    }
+}
