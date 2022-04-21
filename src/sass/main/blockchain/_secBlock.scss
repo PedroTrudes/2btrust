@@ -50,3 +50,32 @@
         }
     }
 }
+
+
+@media (max-width: 500px){
+    .blockchain{
+        height: 800px;
+        .container__blockchain{
+            flex-direction: column;
+            .blockchain--txt{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h3{
+                    font-size: 1.3em;
+                    
+                }
+                p{
+                    max-width: 90%;
+                    font-size: 1.1em;
+                }
+            }
+            .blockchain--img{
+                    img{
+                    height: 400px;
+                }
+            }
+        }
+    }
+}

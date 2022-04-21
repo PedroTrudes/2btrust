@@ -1715,6 +1715,50 @@ nav ul li a:hover {
   height: 400px;
 }
 
+@media (max-width: 500px) {
+  .decentralized {
+    background-image: none;
+    background-color: #07183C;
+    height: 900px;
+  }
+  .decentralized .container__decentralized {
+    height: 800px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .decentralized .container__decentralized .decentralized--txt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding-top: 45px;
+    width: 90%;
+    height: 400px;
+  }
+  .decentralized .container__decentralized .decentralized--txt h3 {
+    font-size: 1.3em;
+  }
+  .decentralized .container__decentralized .decentralized--txt p {
+    font-size: 1.1em;
+  }
+  .decentralized .container__decentralized .decentralized--img img {
+    height: 400px;
+  }
+}
+
 .blockchain {
   background-color: #07183C;
   height: 500px;
@@ -1782,6 +1826,40 @@ nav ul li a:hover {
 
 .blockchain .container__blockchain .blockchain--img img {
   height: 400px;
+}
+
+@media (max-width: 500px) {
+  .blockchain {
+    height: 800px;
+  }
+  .blockchain .container__blockchain {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .blockchain .container__blockchain .blockchain--txt {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blockchain .container__blockchain .blockchain--txt h3 {
+    font-size: 1.3em;
+  }
+  .blockchain .container__blockchain .blockchain--txt p {
+    max-width: 90%;
+    font-size: 1.1em;
+  }
+  .blockchain .container__blockchain .blockchain--img img {
+    height: 400px;
+  }
 }
 
 .start {

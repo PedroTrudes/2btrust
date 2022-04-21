@@ -51,3 +51,43 @@
         }
     }
 }
+
+
+@media (max-width: 500px) {
+
+    .decentralized{
+        background-image: none;
+        background-color: #07183C;
+        height: 900px;
+        .container__decentralized{
+            height: 800px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+           
+            .decentralized--txt{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 45px;
+                width: 90%;
+                height: 400px;
+
+                h3{
+                    font-size: 1.3em;
+                }
+                p{
+                    font-size: 1.1em;
+                }
+            }
+
+            .decentralized--img{
+                
+                img{
+                    height: 400px;
+                }
+            
+            }
+        }
+    }
+}
