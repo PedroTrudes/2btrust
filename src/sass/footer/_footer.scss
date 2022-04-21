@@ -55,3 +55,36 @@
         }
     }
 }
+
+
+@media (max-width: 500px) {
+    .baseboard{
+        height: auto;
+
+        .container__baseboard{
+            height: auto;
+            .baseboard--links{
+                display: flex;
+                flex-direction: column;
+                height: auto;
+                a{
+                    font: 1.2em;
+                    padding: 5px;
+                    
+                }
+            }
+            .baseboard--btn{
+                align-items: center;
+                justify-content: space-evenly;
+                margin-top: 35px;
+                .btn{
+
+                    margin: 0px;
+                }
+            }
+            .baseboard--text{
+                padding: 10px 2px;
+            }
+        }
+    }
+}

@@ -1920,6 +1920,19 @@ nav ul li a:hover {
   background-color: #5A74ED;
 }
 
+@media (max-width: 500px) {
+  .start {
+    height: 400px;
+  }
+  .start .container__start {
+    height: 350px;
+  }
+  .start .container__start h2 {
+    max-width: 90%;
+    font-size: 1.5em;
+  }
+}
+
 .baseboard {
   background-color: #07183C;
   color: #F5F5F5;
@@ -1998,5 +2011,43 @@ nav ul li a:hover {
   font-size: 0.8em;
   line-height: 25px;
   padding: 5px 35px;
+}
+
+@media (max-width: 500px) {
+  .baseboard {
+    height: auto;
+  }
+  .baseboard .container__baseboard {
+    height: auto;
+  }
+  .baseboard .container__baseboard .baseboard--links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: auto;
+  }
+  .baseboard .container__baseboard .baseboard--links a {
+    font: 1.2em;
+    padding: 5px;
+  }
+  .baseboard .container__baseboard .baseboard--btn {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin-top: 35px;
+  }
+  .baseboard .container__baseboard .baseboard--btn .btn {
+    margin: 0px;
+  }
+  .baseboard .container__baseboard .baseboard--text {
+    padding: 10px 2px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

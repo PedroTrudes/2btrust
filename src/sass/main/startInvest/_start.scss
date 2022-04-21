@@ -43,3 +43,19 @@
     }
 
 }
+
+
+
+
+@media (max-width: 500px) {
+    .start{
+        height: 400px;
+        .container__start{
+            height: 350px;
+            h2{
+                max-width: 90%;
+                font-size: 1.5em;
+            }
+        }
+    }
+}
