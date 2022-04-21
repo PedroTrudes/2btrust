@@ -1,11 +1,13 @@
 @import '../../variaveis/var';
 
 .container__banner{
-    background: none;
+
+    background-image: url(https://www.lofty.ai/static/media/hero.2079061465738657e79c.png);
     height: 750px;
-    width: 94.7%;
+    width: 100%;
     display: flex;
-    padding:0px 35px;
+    justify-content: center;
+    //padding:0px 35px;
     box-shadow: rgba(0, 0, 0, 0.199) 0px 1px 2px 0px;
 
     .container__banner--text{
@@ -16,7 +18,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        width: 80%;
         padding: 0px 40px;
         font-family: $font-primary;
         color: $color--01;

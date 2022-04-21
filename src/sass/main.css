@@ -104,13 +104,15 @@ header {
 }
 
 .container__banner {
-  background: none;
+  background-image: url(https://www.lofty.ai/static/media/hero.2079061465738657e79c.png);
   height: 750px;
-  width: 94.7%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0px 35px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-shadow: rgba(0, 0, 0, 0.199) 0px 1px 2px 0px;
           box-shadow: rgba(0, 0, 0, 0.199) 0px 1px 2px 0px;
 }
@@ -126,7 +128,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
+  width: 80%;
   padding: 0px 40px;
   font-family: "Merriweather", serif;
   color: #15285B;
@@ -1636,13 +1638,13 @@ nav ul li a:hover {
 
 @media (max-width: 500px) {
   .journey h3 {
-    padding-left: 25px;
+    margin-left: 25px;
   }
   .journey .container__journey .container__journey--infos h4 {
     font-size: 1.3em;
   }
   .journey .container__journey .container__journey--infos p {
-    max-width: 100%;
+    max-width: 90%;
     font-size: 1.1em;
   }
 }
@@ -1720,6 +1722,7 @@ nav ul li a:hover {
     background-image: none;
     background-color: #07183C;
     height: 900px;
+    width: 100%;
   }
   .decentralized .container__decentralized {
     height: 800px;
@@ -1868,6 +1871,7 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
+  width: 100%;
 }
 
 .start .container__start {
@@ -1922,6 +1926,7 @@ nav ul li a:hover {
 
 @media (max-width: 500px) {
   .start {
+    width: 100%;
     height: 400px;
   }
   .start .container__start {
