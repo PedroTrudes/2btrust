@@ -139,7 +139,7 @@
     margin-top: 15px;
   }
   .container__banner .container__banner--text .container__banner--img img {
-    width: 40%;
+    width: 100%;
   }
 }
 
@@ -692,7 +692,8 @@ main {
 
 @media (max-width: 500px) {
   .overflow {
-    width: 99.5%;
+    border: none;
+    width: 100%;
   }
 }
 
