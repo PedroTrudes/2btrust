@@ -1231,8 +1231,6 @@ label span:nth-child(3) {
   }
   nav #checkbox-menu:checked ~ ul {
     left: 0;
-    position: -webkit-sticky;
-    position: sticky;
   }
 }
 
