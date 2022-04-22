@@ -143,7 +143,7 @@
 
 @media (max-width: 500px) {
     .contributors {
-        width: 100%;
+        width: 90vw;
 
         .pre-btn ,.nxt-btn{
             padding: 0px;
@@ -163,7 +163,7 @@
                 margin-bottom: 40px;
 
                 .cards--img{
-                    width: 60%;
+                    width: 50%;
                     height: 200px;
                     align-items: flex-start;
                     box-shadow: none;
@@ -173,6 +173,7 @@
                 }
                 .cards--info{
                     height: 180px;
+                    width: 100%;
                     h3{
                         font-size: 1.5em;
                         line-height: 25px;

@@ -322,6 +322,12 @@ table {
   border-spacing: 0;
 }
 
+main {
+  padding: 0px;
+  margin: 0px;
+  width: 100vw;
+}
+
 .properties {
   height: 1000px;
   display: -webkit-box;
@@ -892,7 +898,7 @@ table {
 */
 @media (max-width: 500px) {
   .contributors {
-    width: 100%;
+    width: 90vw;
   }
   .contributors .pre-btn, .contributors .nxt-btn {
     padding: 0px;
@@ -915,7 +921,7 @@ table {
     margin-bottom: 40px;
   }
   .contributors .container__contributors .contributors--cards .cards--img {
-    width: 60%;
+    width: 50%;
     height: 200px;
     -webkit-box-align: start;
         -ms-flex-align: start;
@@ -928,6 +934,7 @@ table {
   }
   .contributors .container__contributors .contributors--cards .cards--info {
     height: 180px;
+    width: 100%;
   }
   .contributors .container__contributors .contributors--cards .cards--info h3 {
     font-size: 1.5em;
@@ -1693,7 +1700,7 @@ nav ul li a:hover {
     font-size: 1.1em;
   }
   .decentralized .container__decentralized .decentralized--img img {
-    height: 400px;
+    height: 350px;
   }
 }
 
@@ -1797,7 +1804,7 @@ nav ul li a:hover {
     font-size: 1.1em;
   }
   .blockchain .container__blockchain .blockchain--img img {
-    height: 400px;
+    height: 350px;
   }
 }
 
