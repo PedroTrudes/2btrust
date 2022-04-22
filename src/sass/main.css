@@ -626,6 +626,7 @@ table {
 }
 
 .overflow {
+  z-index: -1;
   overflow: hidden;
   border: 1px solid #59E4E1;
 }
