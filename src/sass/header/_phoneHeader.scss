@@ -10,9 +10,7 @@
 
 #checkbox-menu {
     position: absolute;
-
     display: none;
-
 }
 
 
@@ -95,7 +93,7 @@ label span:nth-child(3){
 
     
     ul{
-        position: fixed;
+        position: sticky;
         width: 100%;
         height: 100vh;
         top: 80px;
@@ -119,7 +117,6 @@ label span:nth-child(3){
 
     #checkbox-menu:checked ~  ul{
         left: 0;
-      
     }
 
 
