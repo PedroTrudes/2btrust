@@ -1551,6 +1551,9 @@ nav ul li a:hover {
 }
 
 @media (max-width: 500px) {
+  .journey {
+    width: 101vw;
+  }
   .journey h3 {
     margin-left: 25px;
   }
@@ -1636,7 +1639,7 @@ nav ul li a:hover {
     background-image: none;
     background-color: #07183C;
     height: 900px;
-    width: 100%;
+    width: 101vw;
   }
   .decentralized .container__decentralized {
     height: 800px;
