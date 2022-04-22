@@ -1747,6 +1747,7 @@ nav ul li a:hover {
 
 @media (max-width: 500px) {
   .blockchain {
+    width: 101vw;
     height: 800px;
   }
   .blockchain .container__blockchain {
