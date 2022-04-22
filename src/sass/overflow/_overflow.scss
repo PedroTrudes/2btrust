@@ -3,18 +3,18 @@
 .overflow{
     overflow: hidden;
     border: 1px solid $color--04;
-
+    
     .overflow-hidden{
         background-color: $color--01;
         padding-left: 50%;
         overflow: hidden;
         width: 100%;
-
+        
         .inline-itens{
-            padding: 1.5em 0;
-            padding-right: 50%;
+            padding: 1.5em 0px;
+            //padding-right: 50%;
             display: inline-flex;
-
+            
             .itens{
                 padding: 0 2rem;
                 justify-content: center;
@@ -56,7 +56,7 @@
 
 @media (max-width: 500px) {
     .overflow{
-        width: 100%;
+        width: 99.5%;
     }    
 }
 

@@ -10,99 +10,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
-header {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  background-color: #fff;
-  z-index: 15;
-}
-
-.container__header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 120px;
-  padding: 0px 25px;
-}
-
-.container__header .container__header--logo img {
-  width: 170px;
-}
-
-.container__header .container__header--nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.container__header .container__header--nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.container__header .container__header--nav ul li {
-  margin-right: 18px;
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-.container__header .container__header--nav ul li a {
-  text-decoration: none;
-  color: #15285B;
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
-}
-
-.container__header .container__header--nav ul li a:hover {
-  color: #59E4E1;
-}
-
-.container__header .container__header--nav button {
-  margin-right: 5px;
-  border: none;
-  border-radius: 5px;
-  width: 150px;
-  height: 40px;
-  font-size: 1.2em;
-  font-weight: bold;
-  background-color: transparent;
-  color: #002BE8;
-  -webkit-transition: 0.6s ease;
-  transition: 0.6s ease;
-  border: 1px solid #9A9A9A;
-}
-
-.container__header .container__header--nav button:last-child {
-  margin-right: 0px;
-}
-
-.container__header .container__header--nav button:hover {
-  background-color: #9A9A9A;
-  border: none;
-}
-
-@media (max-width: 500px) {
-  header .container__header {
-    display: none;
-  }
-}
-
 .container__banner {
   background-image: url(https://www.lofty.ai/static/media/hero.2079061465738657e79c.png);
   background-position: center;
@@ -186,7 +93,7 @@ header {
     padding: 0px;
     margin: 0px;
     height: auto;
-    width: 99.5%;
+    width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -731,8 +638,7 @@ table {
 }
 
 .overflow .overflow-hidden .inline-itens {
-  padding: 1.5em 0;
-  padding-right: 50%;
+  padding: 1.5em 0px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -780,7 +686,7 @@ table {
 
 @media (max-width: 500px) {
   .overflow {
-    width: 100%;
+    width: 99.5%;
   }
 }
 
@@ -1285,6 +1191,9 @@ label span:nth-child(3) {
     position: sticky;
     top: 0;
   }
+  nav img {
+    width: 100px;
+  }
   nav .container {
     padding-top: 25px;
     padding-right: 15px;
@@ -1332,10 +1241,6 @@ label span:nth-child(3) {
   }
 }
 
-body {
-  font-family: sans-serif;
-}
-
 nav {
   width: 100%;
   height: 80px;
@@ -1343,9 +1248,9 @@ nav {
 }
 
 nav img {
-  margin-top: 10px;
-  margin-left: 10px;
-  width: 180px;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 140px;
 }
 
 nav ul {
