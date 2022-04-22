@@ -1,25 +1,26 @@
-@import '../../variaveis/var';
+@import '../../../variaveis/var';
 
-.blockchain {
-
-    background-color: #07183C;
-    height: 500px;
+.decentralized {
+    background-image: url(https://www.lofty.ai/static/media/background-report.197b5abc91fdd5eb796f.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 900px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: $font-primary;
 
-    .container__blockchain{
+    .container__decentralized{
         display: flex;
         align-items: end;
-        flex-direction: row-reverse;
         justify-content: space-evenly;
        // border: 1px solid yellow;
-        height: 400px;
+        height: 800px;
         width: 100%;
 
-        .blockchain--txt{
+        .decentralized--txt{
             //border: 1px solid red;
             color: $color--02;
             width: 40%;
@@ -39,7 +40,7 @@
             }
 
         }
-        .blockchain--img{
+        .decentralized--img{
             //width: 50%;
             height: auto;
 
@@ -52,31 +53,41 @@
 }
 
 
-@media (max-width: 500px){
-    .blockchain{
-        
+@media (max-width: 500px) {
+
+    .decentralized{
+        background-image: none;
+        background-color: #07183C;
+        height: 900px;
         width: 100%;
-        height: 800px;
-        .container__blockchain{
+        .container__decentralized{
+            height: 800px;
             flex-direction: column;
-            .blockchain--txt{
-                width: 100%;
+            align-items: center;
+            justify-content: center;
+           
+            .decentralized--txt{
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                padding-top: 45px;
+                width: 90%;
+                height: 400px;
+
                 h3{
                     font-size: 1.3em;
-                    
                 }
                 p{
-                    max-width: 90%;
                     font-size: 1.1em;
                 }
             }
-            .blockchain--img{
-                    img{
+
+            .decentralized--img{
+                
+                img{
                     height: 350px;
                 }
+            
             }
         }
     }
