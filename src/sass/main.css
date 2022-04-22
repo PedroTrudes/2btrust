@@ -93,7 +93,7 @@
     padding: 0px;
     margin: 0px;
     height: auto;
-    width: 100vw;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -139,7 +139,7 @@
     margin-top: 15px;
   }
   .container__banner .container__banner--text .container__banner--img img {
-    width: 80%;
+    width: 40%;
   }
 }
 
@@ -891,6 +891,13 @@ table {
 }
 */
 @media (max-width: 500px) {
+  .contributors {
+    width: 100%;
+  }
+  .contributors .pre-btn, .contributors .nxt-btn {
+    padding: 0px;
+    margin: 0px;
+  }
   .contributors .container__contributors {
     height: 500px;
   }
@@ -1087,7 +1094,7 @@ table {
 @media (max-width: 500px) {
   .invest {
     height: 1500px;
-    width: 100%;
+    width: 100vw;
     -webkit-box-align: inherit;
         -ms-flex-align: inherit;
             align-items: inherit;
@@ -1563,7 +1570,7 @@ nav ul li a:hover {
 
 @media (max-width: 500px) {
   .journey {
-    width: 100.5vw;
+    width: 100%;
   }
   .journey h3 {
     margin-left: 25px;
@@ -1650,7 +1657,7 @@ nav ul li a:hover {
     background-image: none;
     background-color: #07183C;
     height: 900px;
-    width: 100.5vw;
+    width: 100%;
   }
   .decentralized .container__decentralized {
     height: 800px;
@@ -1761,7 +1768,7 @@ nav ul li a:hover {
 
 @media (max-width: 500px) {
   .blockchain {
-    width: 100.5vw;
+    width: 100%;
     height: 800px;
   }
   .blockchain .container__blockchain {

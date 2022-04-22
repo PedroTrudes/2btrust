@@ -143,6 +143,13 @@
 
 @media (max-width: 500px) {
     .contributors {
+        width: 100%;
+
+        .pre-btn ,.nxt-btn{
+            padding: 0px;
+            margin: 0px;
+        }
+
         .container__contributors{
             height: 500px;
 
