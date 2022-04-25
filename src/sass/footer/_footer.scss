@@ -60,7 +60,6 @@
 @media (max-width: 500px) {
     .baseboard{
         height: auto;
-
         .container__baseboard{
             height: auto;
             .baseboard--links{
@@ -87,4 +86,11 @@
             }
         }
     }
+}
+
+@media (max-width: 900px) {
+    .baseboard{
+        padding: 45px 0px;
+    }
+
 }

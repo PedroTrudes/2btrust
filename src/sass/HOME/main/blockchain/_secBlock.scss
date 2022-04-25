@@ -81,3 +81,15 @@
         }
     }
 }
+
+@media (max-width: 900px) {
+    .blockchain{
+        height: 600px;
+        .container__blockchain{
+            height: auto;
+            .blockchain--txt{
+                height: auto;
+            }
+        }
+    }
+}

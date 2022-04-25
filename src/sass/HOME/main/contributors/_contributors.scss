@@ -183,3 +183,41 @@
         }
     }
 }
+
+@media (max-width: 900px) {
+
+    .contributors{
+
+
+        .container__contributors{
+           // width: 100%;
+            .contributors--cards{
+                width: 100%;
+                margin-right: 130px;
+
+                
+                .cards--info{
+                    width: 100%;
+                    height: 340px;
+                    h3{
+                        font-size: 1.5em;
+                        
+                    }
+                }
+
+                .cards--img{
+                    height: 250px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    img{
+                        height: 300px;
+                    }
+                }
+            }
+        }
+
+    }
+
+}

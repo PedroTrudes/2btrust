@@ -269,3 +269,34 @@
     }
 
 }
+
+
+@media (max-width: 900px) {
+.properties{
+    height: auto;
+    .container__properties{
+        height: auto;
+        .container__properties--box{
+            display: flex;
+            flex-direction: column;
+            height: auto;
+
+            .container__box{
+                width: 50%;
+                margin: 25px 0px;
+            }
+
+            
+        }
+
+        .container__properties--btn{
+            width: 80%;
+
+            .properties--btn{
+                width: 40%;
+            }
+        }
+    }
+}
+
+}
