@@ -68,9 +68,11 @@
     .blockchain{
         
         width: 100%;
-        height: 800px;
+        height: auto;
         .container__blockchain{
+            height: auto;
             flex-direction: column;
+            align-items: center;
             .blockchain--txt{
                 width: 100%;
                 display: flex;
