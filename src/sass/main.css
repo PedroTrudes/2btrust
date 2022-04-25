@@ -92,7 +92,7 @@
   .container__banner {
     padding: 0px;
     margin: 0px;
-    height: auto;
+    height: 50vh;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
