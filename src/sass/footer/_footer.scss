@@ -5,11 +5,11 @@
     background-color: #07183C;
     color: $color--02;
     padding: 0px 45px;
-    height: 600px;
+    height: auto;
 
     .container__baseboard{
         padding-top: 55px;
-        height: 500px;
+        height: auto;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -57,7 +57,37 @@
 }
 
 
-@media (max-width: 500px) {
+
+/*
+@media (max-width: 850px) {
+    .baseboard{
+        border: 2px solid sienna;
+        width: 100vw;
+        height: auto;
+        padding: 95px 0px;
+
+        .container__baseboard{
+            height: auto;
+            border: 1px solid red;
+
+            .baseboard--links{
+                flex-direction: column;
+                border: 1px solid yellow;
+                height: auto;
+                a{
+                    font: 1.2em;
+                    padding: 5px;
+                    
+                }
+            }
+        }
+    }
+
+}
+*/
+
+
+@media (max-width: 850px) {
     .baseboard{
         height: auto;
         .container__baseboard{
@@ -86,11 +116,4 @@
             }
         }
     }
-}
-
-@media (max-width: 900px) {
-    .baseboard{
-        padding: 45px 0px;
-    }
-
 }

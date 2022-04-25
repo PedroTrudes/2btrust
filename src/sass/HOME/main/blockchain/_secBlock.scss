@@ -50,9 +50,21 @@
         }
     }
 }
+/*
+@media (max-width: 900px) {
+    .blockchain{
+        height: 600px;
+        .container__blockchain{
+            height: auto;
+            .blockchain--txt{
+                height: auto;
+            }
+        }
+    }
+}
+*/
 
-
-@media (max-width: 500px){
+@media (max-width: 850px){
     .blockchain{
         
         width: 100%;
@@ -82,14 +94,3 @@
     }
 }
 
-@media (max-width: 900px) {
-    .blockchain{
-        height: 600px;
-        .container__blockchain{
-            height: auto;
-            .blockchain--txt{
-                height: auto;
-            }
-        }
-    }
-}

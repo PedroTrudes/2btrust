@@ -223,11 +223,47 @@
 }
 
 
-@media (max-width: 500px){
+
+/*
+@media (max-width: 900px) {
     .properties{
-        height: 2000px;
+        height: auto;
+        .container__properties{
+            height: auto;
+            .container__properties--box{
+                display: flex;
+                flex-direction: column;
+                height: auto;
+    
+                .container__box{
+                    width: 50%;
+                    margin: 25px 0px;
+                }
+    
+                
+            }
+    
+            .container__properties--btn{
+                width: 80%;
+    
+                .properties--btn{
+                    width: 40%;
+                }
+            }
+        }
+    }
+    
+    }
+    */
+
+
+    
+@media (max-width: 850px){
+    .properties{
+        height: auto;
 
         .container__properties{
+            height: auto;
             h2{
                 font-size: 2em;
                 height: auto;
@@ -240,9 +276,10 @@
                 flex-direction: column;
                 height: auto;
                 width: 100%;
+                
             
                 .container__box{
-                    width: 90vw;
+                    width: 75vw;
                     height: 500px;
                     margin: 15px 0px;
                     .container__box--img{
@@ -262,41 +299,10 @@
                 padding: 55px 0px;
 
                 .properties--btn{
-                    width: 90%;
+                    width: 50%;
                 }
             }
         }
     }
-
-}
-
-
-@media (max-width: 900px) {
-.properties{
-    height: auto;
-    .container__properties{
-        height: auto;
-        .container__properties--box{
-            display: flex;
-            flex-direction: column;
-            height: auto;
-
-            .container__box{
-                width: 50%;
-                margin: 25px 0px;
-            }
-
-            
-        }
-
-        .container__properties--btn{
-            width: 80%;
-
-            .properties--btn{
-                width: 40%;
-            }
-        }
-    }
-}
 
 }
