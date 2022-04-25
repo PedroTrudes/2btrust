@@ -1175,7 +1175,7 @@ main {
 
 @media (max-width: 850px) {
   .invest {
-    height: 1500px;
+    height: auto;
     width: 100vw;
     -webkit-box-align: inherit;
         -ms-flex-align: inherit;
@@ -1185,7 +1185,7 @@ main {
             justify-content: inherit;
   }
   .invest .container__invest {
-    height: 1000px;
+    height: auto;
     padding: 0px;
   }
   .invest .container__invest h2 {
