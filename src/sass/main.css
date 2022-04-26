@@ -594,37 +594,12 @@ main {
   color: #F5F5F5;
 }
 
-/*
-@media (max-width: 900px) {
-    .properties{
-        height: auto;
-        .container__properties{
-            height: auto;
-            .container__properties--box{
-                display: flex;
-                flex-direction: column;
-                height: auto;
-    
-                .container__box{
-                    width: 50%;
-                    margin: 25px 0px;
-                }
-    
-                
-            }
-    
-            .container__properties--btn{
-                width: 80%;
-    
-                .properties--btn{
-                    width: 40%;
-                }
-            }
-        }
-    }
-    
-    }
-    */
+@media (min-width: 1300px) {
+  .properties .container__properties .container__properties--box .container__box {
+    width: 25%;
+  }
+}
+
 @media (max-width: 850px) {
   .properties {
     height: auto;
@@ -664,7 +639,7 @@ main {
     padding: 55px 0px;
   }
   .properties .container__properties .container__properties--btn .properties--btn {
-    width: 50%;
+    width: 70%;
   }
 }
 
@@ -1121,6 +1096,7 @@ main {
 }
 
 .invest .container__invest .container__invest--cards .invest--cards {
+  margin: 15px 0px;
   width: 33.17%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1205,7 +1181,7 @@ main {
     width: 100%;
   }
   .invest .container__invest .container__invest--btn .invest--btn {
-    width: 50%;
+    width: 70%;
   }
 }
 
@@ -1983,7 +1959,7 @@ nav ul li a:hover {
 }
 
 .baseboard .container__baseboard {
-  padding-top: 55px;
+  padding: 55px 0px;
   height: auto;
   width: 100%;
   display: -webkit-box;
