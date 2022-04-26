@@ -1,9 +1,10 @@
 @import '../variaveis/var';
 .faq{
+    font-family: $font-primary;
 
     width: 100%;
     //height: 100vh;
-    background-color: #3c4053;
+    background-color: $color--02;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +27,7 @@
 .accordion-item{
     height: auto;
     width: 50vw;
-    background-color: #283042;
+    background-color: $color--03;
     border-radius: .4rem;
     margin-bottom: 1rem;
     padding: 1rem;
@@ -38,7 +39,7 @@
     font-size: 1.2rem;
     color: $color--04;
     text-decoration: none;
-    background-color: #283042;
+    background-color: $color--03;
     width: 100%;
     display: flex;
     align-items: center;
@@ -46,8 +47,9 @@
     padding: 1rem 0;
 }
 
+
 .accordion-link ion-icon {
-    color: $color--05;
+    color: $color--04;
     padding:  .5rem;
 
 }
@@ -61,7 +63,7 @@
     max-height: 0;
     overflow: hidden;
     position: relative;
-    background-color: #212838;
+    background-color: #dddada;
     transition: max-height 650ms;
    
 }
@@ -71,7 +73,7 @@
     position: absolute;
     width: .6rem;
     height: 90%;
-    background-color: #8fc460;
+    background-color: $color--04;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
@@ -80,7 +82,8 @@
 .answer p {
     padding: 2rem;
     font-size: 1rem;
-    color: $color--02;
+    color: $color--01;
+    font-weight: bold;
 }
 
 

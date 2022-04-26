@@ -2541,8 +2541,9 @@ main .missions .container__missions .container__missions--img img {
 }
 
 .faq {
+  font-family: "Merriweather", serif;
   width: 100%;
-  background-color: #3c4053;
+  background-color: #F5F5F5;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2579,7 +2580,7 @@ main .missions .container__missions .container__missions--img img {
 .accordion-item {
   height: auto;
   width: 50vw;
-  background-color: #283042;
+  background-color: #9A9A9A;
   border-radius: .4rem;
   margin-bottom: 1rem;
   padding: 1rem;
@@ -2591,7 +2592,7 @@ main .missions .container__missions .container__missions--img img {
   font-size: 1.2rem;
   color: #59E4E1;
   text-decoration: none;
-  background-color: #283042;
+  background-color: #9A9A9A;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2606,7 +2607,7 @@ main .missions .container__missions .container__missions--img img {
 }
 
 .accordion-link ion-icon {
-  color: #3675F0;
+  color: #59E4E1;
   padding: .5rem;
 }
 
@@ -2618,7 +2619,7 @@ main .missions .container__missions .container__missions--img img {
   max-height: 0;
   overflow: hidden;
   position: relative;
-  background-color: #212838;
+  background-color: #dddada;
   -webkit-transition: max-height 650ms;
   transition: max-height 650ms;
 }
@@ -2628,7 +2629,7 @@ main .missions .container__missions .container__missions--img img {
   position: absolute;
   width: .6rem;
   height: 90%;
-  background-color: #8fc460;
+  background-color: #59E4E1;
   top: 50%;
   left: 0;
   -webkit-transform: translateY(-50%);
@@ -2638,7 +2639,8 @@ main .missions .container__missions .container__missions--img img {
 .answer p {
   padding: 2rem;
   font-size: 1rem;
-  color: #F5F5F5;
+  color: #15285B;
+  font-weight: bold;
 }
 
 .accordion-item:target .answer {
