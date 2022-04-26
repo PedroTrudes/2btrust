@@ -15,6 +15,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 .container__banner {
   background-image: url(https://www.lofty.ai/static/media/hero.2079061465738657e79c.png);
   background-position: center;
@@ -2536,6 +2537,131 @@ main .missions .container__missions .container__missions--img img {
 @media (max-width: 600px) {
   .team .container__team .team--user {
     width: 50%;
+  }
+}
+
+.faq {
+  width: 100%;
+  background-color: #3c4053;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container__faq {
+  width: 100%;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.accordion {
+  padding: 35px 0px;
+  height: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.accordion-item {
+  height: auto;
+  width: 50vw;
+  background-color: #283042;
+  border-radius: .4rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  -webkit-box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0.5rem 2px 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.accordion-link {
+  font-size: 1.2rem;
+  color: #59E4E1;
+  text-decoration: none;
+  background-color: #283042;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.accordion-link ion-icon {
+  color: #3675F0;
+  padding: .5rem;
+}
+
+.accordion-link .ion-nd-remove {
+  display: none;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-color: #212838;
+  -webkit-transition: max-height 650ms;
+  transition: max-height 650ms;
+}
+
+.answer::before {
+  content: "";
+  position: absolute;
+  width: .6rem;
+  height: 90%;
+  background-color: #8fc460;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.answer p {
+  padding: 2rem;
+  font-size: 1rem;
+  color: #F5F5F5;
+}
+
+.accordion-item:target .answer {
+  max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .ion-nd-add {
+  display: none;
+}
+
+.accordion-item:target .accordion-link .ion-nd-remove {
+  display: block;
+}
+
+@media (max-width: 850px) {
+  .faq .container__faq .accordion .accordion-item {
+    width: 90%;
+  }
+}
+
+@media (max-width: 600px) {
+  .faq .container__faq .accordion .accordion-item {
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
