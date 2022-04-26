@@ -1,0 +1,81 @@
+@import '../../../variaveis/var';
+
+.team{
+    width: 100%;
+
+    padding: 80px 0px;
+    h2{
+        font-size: 2em;
+        text-align: center;
+    }
+    .container__team{
+        padding-top: 55px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        .team--user{
+            padding: 25px 0px;
+            border-radius: 8px;
+            display:  flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 25%;
+            margin: 35px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            img{
+                height: 150px;
+            }
+
+            .user--infos{
+                margin-top: 15px;
+                display: flex;
+                align-items: center;
+                color: $color--04;
+                font-weight: bold;
+                text-transform: capitalize;
+                
+                img{
+                    height: 32px;
+                    margin-left: 15px;
+                }
+            }
+
+            .user--cargo{
+                p{
+                    margin-top: 15px;
+                    color: $color--01;
+                    font-weight: bold;
+
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 820px){
+    .team{
+        .container__team{
+
+            .team--user{
+                width: 30%;
+            }
+        }
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .team{
+
+        .container__team{
+
+            .team--user{
+                width: 50%;
+            }
+        }
+    }
+}

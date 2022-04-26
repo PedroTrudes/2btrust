@@ -1,0 +1,51 @@
+@import '../../../variaveis/var';
+
+.investors{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 55px;
+    width: 100%;
+    h2{
+        max-width: 60%;
+        margin: 75px 0px;
+        text-align: center;
+        font-size: 2em;
+        color: $color--04;
+    }
+
+   
+
+    .container__investors{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        width: 85%;
+
+        img{
+            width: 130px;
+            height: 58px;
+            margin: 35px 35px;
+        }
+    }
+}
+
+
+@media (max-width: 600px){
+    .investors{
+        h2{
+            max-width: 90%;
+            font-size: 1.5em;
+        }
+
+        .container__investors{
+
+            img{
+                height: 40px;
+                width: auto;
+            }
+        }
+    }
+}
