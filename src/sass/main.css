@@ -16,6 +16,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 .container__banner {
   background-image: url(https://www.lofty.ai/static/media/hero.2079061465738657e79c.png);
   background-position: center;
@@ -2640,6 +2641,53 @@ main .missions .container__missions .container__missions--img img {
 @media (max-width: 600px) {
   .faq .container__faq .accordion .accordion-item {
     width: 100%;
+  }
+}
+
+main {
+  width: 100%;
+}
+
+main .terms {
+  background-color: #F5F5F5;
+  width: 100%;
+  padding: 15px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .terms .container__terms {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  border-radius: 8px;
+  width: 40vw;
+  height: auto;
+  padding: 35px;
+  background-color: #FFF;
+}
+
+main .terms .container__terms .container__terms--info {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+          box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 15px;
+  background-color: #F5F5F5;
+  padding: 10px;
+}
+
+main .terms .container__terms .container__terms--info p {
+  font-size: 1.1em;
+  font-weight: 100;
+  line-height: 33px;
+  color: #15285B;
+}
+
+@media (max-width: 1250px) {
+  main .terms .container__terms {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=main.css.map */
