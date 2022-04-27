@@ -18,21 +18,15 @@ uso forte da cor branca
 }
 
 
-// Estrutura de paginas no SASS //
-
-{
-     cabeçalho: "header"{
-
-     }
-
-     main: {
-
-     }
-
-     footer: {
-         
-     }
-}
 
 Criação de um site de apresentação de uma plataforma de fundos imobiliarios para a 2btrust
 
+Paginas que ja foram criatas : 
+ {x} - HOME;
+ {x} - About Us;
+ {x} - FAQs;
+
+                        {} - Learn --Bucar fazer um MVC com Js para atualizar posts!
+                        {} - Sell My Property -- Formulario de propriedade
+                        {} - Account  -- Login na plataforma
+                        {} - Marketplace -- Loja de imoveis
