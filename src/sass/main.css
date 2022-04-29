@@ -18,6 +18,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 .container__banner {
   background-image: url(https://www.lofty.ai/static/media/hero.2079061465738657e79c.png);
   background-position: center;
@@ -2754,6 +2755,122 @@ main .menu--mvc .container__mvc a .container__mvc--marketplace {
 main .menu--mvc .container__mvc a h3 {
   font-size: 1.8em;
   color: #59E4E1;
+  font-weight: bold;
+}
+
+.mvc__blog {
+  font-family: "Merriweather", serif;
+  height: 100vh;
+  background-color: #F5F5F5;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mvc__blog h3 {
+  margin: 15px 0px;
+  font-size: 2em;
+  font-weight: bold;
+  color: #15285B;
+}
+
+.mvc__blog .form__blog {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+}
+
+.mvc__blog .form__blog .form__group {
+  margin: 8px;
+  width: 80%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mvc__blog .form__blog .form__group .label--blog {
+  position: none;
+  display: inherit;
+  width: 85%;
+  font-size: 1.5em;
+  padding-bottom: 5px;
+  color: #15285B;
+  font-weight: bold;
+}
+
+.mvc__blog .form__blog .form__group .input {
+  width: 85%;
+  height: 35px;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: bold;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-color: none;
+  text-transform: capitalize;
+}
+
+.mvc__blog .form__blog .form__group .areatxt {
+  font-weight: normal;
+  height: 100px;
+  text-align: start;
+  padding: 5px 10px;
+  text-transform: none;
+}
+
+.mvc__blog .form__blog .btn--post {
+  cursor: pointer;
+  -webkit-box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+          box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  margin-top: 15px;
+  width: 50%;
+  height: 40px;
+  border: none;
+  background-color: #15285B;
+  border-radius: 10px;
+  color: #59E4E1;
+  font-size: 1.3em;
   font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */
