@@ -17,6 +17,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
 .container__banner {
   background-image: url(https://www.lofty.ai/static/media/hero.2079061465738657e79c.png);
   background-position: center;
@@ -2689,5 +2690,70 @@ main .terms .container__terms .container__terms--info p {
   main .terms .container__terms {
     width: 80%;
   }
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+main .menu--mvc {
+  width: 100%;
+}
+
+main .menu--mvc .container__mvc {
+  background-color: #F5F5F5;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .menu--mvc .container__mvc a {
+  text-decoration: none;
+}
+
+main .menu--mvc .container__mvc a .container__mvc--blog {
+  height: 250px;
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  background-color: #9A9A9A;
+}
+
+main .menu--mvc .container__mvc a .container__mvc--marketplace {
+  height: 250px;
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  background-color: #9A9A9A;
+}
+
+main .menu--mvc .container__mvc a h3 {
+  font-size: 1.8em;
+  color: #59E4E1;
+  font-weight: bold;
 }
 /*# sourceMappingURL=main.css.map */

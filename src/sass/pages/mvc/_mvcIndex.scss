@@ -1,0 +1,55 @@
+@import '../../variaveis/var';
+
+main {
+
+    width: 100%;
+    height: auto;
+
+    .menu--mvc{
+        width: 100%;
+
+
+        .container__mvc{
+            background-color: $color--02;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+            a{
+                text-decoration: none;
+
+                .container__mvc--blog{
+                    height: 250px;
+                    width: 350px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 15px;
+                    background-color: $color--03;
+                }
+
+                .container__mvc--marketplace{
+                    height: 250px;
+                    width: 350px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 15px;
+                    background-color: $color--03;
+                }
+
+                h3{
+                    font-size: 1.8em;
+                    color: $color--04;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+
+
+}
+    
+
