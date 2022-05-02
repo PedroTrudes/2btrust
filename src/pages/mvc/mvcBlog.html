@@ -37,21 +37,32 @@
       <section class="mvc__blog">
           <h3>Faça um post na pagina de BLOG</h3>
 
-          <form class="form__blog">
+          <form class="form__blog" onsubmit="postController.adiciona(event)">
+
+            <div class="form__group">
+              <label class="label--blog" for="data--blog">Data do Post</label>
+              <input type="date" name="titulo--blog" id="data--blog" class="input" required autofocus/>
+          </div>
 
             <div class="form__group">
                 <label class="label--blog" for="titulo--blog">Titulo do Post</label>
-                <input type="text" name="titulo--blog" id="titulo--blog" class="input" required autofocus/>
+                <input type="text" name="titulo--blog" id="titulo--blog" class="input"/>
             </div>
 
             <div class="form__group">
               <label class="label--blog" for="texto--blog">Texto do Post</label>
-              <!-- <input type="text" name="texto--blog" id="texto--blog" class="input"> -->
-              <textarea name="" id="" cols="50" rows="10" class="input areatxt"></textarea>
+              <textarea type="text" name="texto--blog" id="texto--blog" cols="50" rows="10" class="input areatxt"></textarea> 
             </div>
 
             <button class="btn--post" type="submit">Subir Post</button>
           </form>
+
+          <div class="lista">
+            <p>Posts Ativos:</p>
+
+          <div class="container__lista--post" id="post--view">
+          </div>
+        </div>
       </section>
 
       <footer class="baseboard">
@@ -120,5 +131,19 @@
           </div>
         </div>
       </footer>
+
+      <script src="../../js/app/controllers/PostController.js"></script>
+      <script src="../../js/app/models/Post.js"></script>
+      <script src="../../js/app/helpers/DataHelper.js"></script>
+      <script src="../../js/app/models/ListaPost.js"></script>
+      <script src="../../js/app/views/View.js"></script>
+      <script src="../../js/app/views/PostView.js"></script>
+      <!-- <script src=""></script>
+      <script src=""></script> -->
+
+      <script>
+        let postController = new PostController();
+
+      </script>
 </body>
 </html>

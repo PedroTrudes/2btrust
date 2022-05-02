@@ -2760,7 +2760,7 @@ main .menu--mvc .container__mvc a h3 {
 
 .mvc__blog {
   font-family: "Merriweather", serif;
-  height: 100vh;
+  height: 100%;
   background-color: #F5F5F5;
   text-align: center;
   display: -webkit-box;
@@ -2783,6 +2783,78 @@ main .menu--mvc .container__mvc a h3 {
   font-size: 2em;
   font-weight: bold;
   color: #15285B;
+}
+
+.mvc__blog .lista {
+  margin-top: 45px;
+  width: 90%;
+}
+
+.mvc__blog .lista p {
+  font-size: 2em;
+}
+
+.mvc__blog .lista .container__lista--post {
+  padding: 35px 0px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid red;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mvc__blog .lista .container__lista--post .container--blog {
+  border: 1px solid blue;
+  background-color: red;
+  width: 25%;
+  height: 250px;
+  margin: 5px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mvc__blog .lista .container__lista--post .container--blog .data--blog {
+  font-size: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+.mvc__blog .lista .container__lista--post .container--blog .titulo--blog {
+  font-size: 1.4em;
+  color: aqua;
+}
+
+.mvc__blog .lista .container__lista--post .container--blog .texto--blog {
+  font-size: 1.2em;
+  color: blue;
+}
+
+.mvc__blog .lista .container__lista--post .testede {
+  height: 30px;
+  width: 40px;
 }
 
 .mvc__blog .form__blog {
