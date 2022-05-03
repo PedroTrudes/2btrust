@@ -4,7 +4,9 @@ class PostController{
         this._inputData = $('#data--blog');// nome do id do campo data tem que ser esse
         this._inputTitulo = $('#titulo--blog');//nome do id do campo titulo tem que ser esse
         this._inputTexto = $('#texto--blog');// nome do id do campo de texto tem que ser esse.
-        this._listaPost = new ListaPost();
+        this._listaPost = new ListaPost(model => {
+            this._postView.update(model);
+        });
 
         this._postView = new PostView($('#post--view'))// a div tem que ter esse nome no id;
         this._postView.update(this._listaPost);
@@ -18,7 +20,6 @@ class PostController{
     
         this._listaPost.adiciona(this._CriaPost());
 
-        this._postView.update(this._listaPost);
         this._limpaFormulario();
         console.log(this._listaPost.post);
 
