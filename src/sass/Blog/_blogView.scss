@@ -1,0 +1,110 @@
+@import '../variaveis/var';
+.blog{
+    
+    position: relative;
+    background-image: url(https://www.lofty.ai/static/media/hero.2079061465738657e79c.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+       
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .container__banner--blog{
+        
+        img{
+            background-position: center;
+            background-size: cover;
+            
+            height: 540px;
+            width: 100%;
+        }
+    }
+    .container__banner--texto{
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        border-bottom: 2px solid $color--03;
+        p{
+            color: $color--01;
+            padding: 15px 0px;
+            font-size: 3.5em;
+            font-weight: bold;
+
+        }
+    }
+}
+
+
+.container__blog{
+    height: auto;
+    width: 100%;
+    padding: 30px 0px;
+    font-family: $font-primary;
+    //background-color: $color--03;
+}
+
+.container--card{
+    color: $color--02;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap;
+
+    div{
+        margin: 15px;
+        width: 25%;
+        background-color: $color--02;
+        height: 350px;
+        border: none;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h3{
+            font-size: 2em;
+            font-weight: bold;
+            text-align: center;
+            color: $color--04;
+        }
+
+        .blog--descritivo{
+            font-size: 1em;
+            opacity: 50%;
+            color: $color--03;
+        }
+        .blog--descricao{
+            margin: 15px 0px;
+            font-size: 1.5em;
+            padding: 5px 15px;
+            color: black;
+        }
+        .divisor--blog{
+            height: 4px;
+            width: 95%;
+            background-color: $color--04;
+            margin: 8px 0px;
+            border-radius: 50px;
+        }
+
+        button{
+            width: 80%;
+            height: 40px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1em;
+            font-weight: bold;
+            color: $color--04;
+
+            background-color: $color--01;
+        }
+
+        
+    }
+}
+
+

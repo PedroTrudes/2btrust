@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../sass/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
     <title>MVC - Blog</title>
 </head>
@@ -26,6 +27,7 @@
               <li><a href="../../../about.html">About us</a></li>
               <li><a href="../../../faq.html">FAQ</a></li>
               <li><a href="../../../learn.html">Learn</a></li>
+              <li><a href="../../../blog.html">Blog</a></li>
               <li><a href="#">Sell my property</a></li>
               <li><a href="#">Account</a></li>
               <li><a href="#" id="btn-login">Marketplace</a></li>
@@ -35,35 +37,52 @@
       </header>
 
       <section class="mvc__blog">
-          <h3>Faça um post na pagina de BLOG</h3>
-
-          <form class="form__blog" onsubmit="postController.adiciona(event)">
-
-            <div class="form__group">
-              <label class="label--blog" for="data--blog">Data do Post</label>
-              <input type="date" name="titulo--blog" id="data--blog" class="input" required autofocus/>
+        <div class="container__mvc--blog">
+          <div class="header__mvc--blog">
+            <span>Cadastro de Post</span>
+            <button onclick="openModal()" id="new">Incluir</i></button>
           </div>
 
-            <div class="form__group">
-                <label class="label--blog" for="titulo--blog">Titulo do Post</label>
-                <input type="text" name="titulo--blog" id="titulo--blog" class="input"/>
-            </div>
-
-            <div class="form__group">
-              <label class="label--blog" for="texto--blog">Texto do Post</label>
-              <textarea type="text" name="texto--blog" id="texto--blog" cols="50" rows="10" class="input areatxt"></textarea> 
-            </div>
-
-            <button class="btn--post" type="submit">Subir Post</button>
-          </form>
-
-          <div class="lista">
-            <p>Posts Ativos:</p>
-
-          <div class="container__lista--post" id="post--view">
+          <div class="divTable">
+            <table>
+              <thead>
+                <tr>
+                  <th>Titulo</th>
+                  <th>Descritivo</th>
+                  <th>Descricao</th>
+                  <th class="acao">Editar</th>
+                  <th class="acao">Excluir</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
           </div>
+
+
+          <div class="modal-container">
+            <div class="modal">
+              <form>
+                
+                <label class="modal__label" for="m-titulo">Titulo</label>
+                <input id="m-titulo" type="text" required />
+      
+                <label class="modal__label" for="m-descritivo">Breve descritivo</label>
+                <input id="m-descritivo" type="text" required />
+      
+                <label class="modal__label" for="m-descricao" >Descrição</label>
+                <input id="m-descricao" type="text" required />
+      
+                <button id="btnSalvar">Salvar</button>
+              </form>
+            </div>
+          </div>
+
         </div>
+
       </section>
+
+     
 
       <footer class="baseboard">
         <div class="container__baseboard">
@@ -132,18 +151,8 @@
         </div>
       </footer>
 
-      <script src="../../js/app/controllers/PostController.js"></script>
-      <script src="../../js/app/models/Post.js"></script>
-      <script src="../../js/app/helpers/DataHelper.js"></script>
-      <script src="../../js/app/models/ListaPost.js"></script>
-      <script src="../../js/app/views/View.js"></script>
-      <script src="../../js/app/views/PostView.js"></script>
-      <!-- <script src=""></script>
-      <script src=""></script> -->
 
-      <script>
-        let postController = new PostController();
+      <script src="../../js/app/MVCblog/blog.js"></script>
 
-      </script>
 </body>
 </html>

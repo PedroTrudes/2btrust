@@ -1,147 +1,250 @@
 @import '../../variaveis/var';
 
 .mvc__blog{
-    font-family: $font-primary;
-    height: 100%;
-    background-color: $color--02;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.container__mvc--blog {
+    width: 90%;
+    height: 80%;
+    border-radius: 10px;
+    background: white;
+  }
+  
+  .header__mvc--blog {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 12px;
+  }
+  
+  .header ,span {
+    font-weight: 900;
+    font-size: 20px;
+    word-break: break-all;
+  }
+  
+  #new {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(57, 57, 226);
+  }
+  
+  .divTable {
+    padding: 10px;
+    width: auto; 
+    height:inherit; 
+    overflow:auto;
+  }
+  
+  .divTable::-webkit-scrollbar {
+    width: 12px;
+    background-color: whitesmoke; 
+  }
+  
+  .divTable::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: darkgray; 
+  }
+  
+  table {
+    width: 100%;
+    border-spacing: 10px;
+    word-break: break-all;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: whitesmoke;
+  }
+  
+  tr {
+    border-bottom: 1px solid rgb(238, 235, 235)!important;
+  }
+  
+  tbody ,tr ,td {
+    vertical-align: text-top;
+    padding: 6px;
+    max-width: 50px;
+  }
+  
+  thead ,tr ,th {
+    padding: 5px;
+    text-align: start;
+    margin-bottom: 50px;
+  }
+  
+  tbody tr {
+    margin-bottom: 50px;
+  }
+  
+  thead tr th.acao {
+    width: 100px!important;
     text-align: center;
+  }
+  
+  tbody tr td.acao {
+    text-align: center;
+  }
+
+ 
+  
+  .modal{
+      width: 80%!important;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  form{
+      width: 80%;
+      height: 350px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      
+  }
+
+  form input{
+      font-size: 35px!important;
+  }
+  form button {
+      width: 50%!important;
+      height: 130px;
+  }
+.modal__label {
+    display: block;
+    font-size: 20px!important;
+    width: 100%;
+}
+
+  @media (max-width: 700px) {
+    body {
+      font-size: 10px;
+    }
+    
+    .header span {
+      font-size: 15px;
+    }
+  
+    #new {
+      padding: 5px;
+      font-size: 10px;
+    }
+  
+    thead tr th.acao {
+      width: auto!important;
+    }
+    
+    td button i {
+      font-size: 20px!important;
+    }
+  
+    td button i:first-child {
+      margin-right: 0;
+    }
+
+ 
+    .modal {
+      width: 90%!important;
+    }
+  
+    .modal__label {
+      font-size: 12px!important;
+    }
+  }
+  
+  .modal-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    h3 {
-        margin: 15px 0px;
-        font-size: 2em;
-        font-weight: bold;
-        color: $color--01;
-    }
-
-    .lista{
-        margin-top: 45px;
-        width: 90%;
-        p{
-            font-size: 2em;
-        }
-   
-    .container__lista--post{
-        padding: 35px 0px;
-        width: 100%;    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid red;
-        flex-direction: row;
-        flex-wrap: wrap;
-
-
-       
-        .container--blog{
-
-            border: 1px solid blue;
-            background-color: red;
-            width: 25%;
-            height: 250px;
-            margin: 5px 5px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            
-
-
-            .data--blog{
-                font-size: 1em;
-                color:  white;
-                font-weight: bold;
-            }
-            .titulo--blog{
-                font-size: 1.4em;
-                color: aqua;
-            }
-
-            .texto--blog{
-                font-size: 1.2em;
-                color: blue;
-            }
-        }
-
-        .testede{
-            height: 30px ;
-            width: 40px;
-        }
-    }
-
-}
-    .form__blog{
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-        height: 70vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 60%;
-        
-        .form__group{
-            margin: 8px;
-            width: 80%;
-            height: 150px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-
-            .label--blog{
-                position: none;
-                display: inherit;
-                width: 85%;
-                font-size: 1.5em;
-                padding-bottom: 5px;
-                color: $color--01;
-                font-weight: bold;
-            }
-
-            .input{
-                width: 85%;
-                height: 35px;
-                font-size: 1.3em;
-                text-align: center;
-                font-weight: bold;
-                border: none;
-                border-top-left-radius: 8px;
-                border-bottom-right-radius: 8px;
-                box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-                border-color: none;
-                text-transform: capitalize;
-
-            }
-
-            .areatxt{
-                font-weight: normal;
-                height: 100px;
-                text-align: start;
-                padding: 5px 10px;
-                text-transform: none;
-            }
-        }
-
-        .btn--post{
-            cursor: pointer;
-            box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
-            margin-top: 15px;
-            width: 50%;
-            height: 40px;
-            border: none;
-            background-color: $color--01;
-            border-radius: 10px;
-            color: $color--04;
-            font-size: 1.3em;
-            font-weight: bold;
-
-        }
-    }
-
-
+    padding: 40px;
+    background-color: white;
+    border-radius: 10px;
+    width: 50%;
+  }
   
-}
+  .modal__label {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .modal input {
+    width: 100%;
+    outline: none;
+    padding: 5px 10px; 
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .modal button {
+    width: 100%;
+    margin: 10px auto;
+    outline: none;
+    border-radius: 20px; 
+    padding: 5px 10px; 
+    width: 100%;
+    border: none;
+    background-color: rgb(57, 57, 226);
+    color: white;
+  }
+  
+  .active {
+    display: flex;
+  }
+  
+  .active .modal {
+    animation: modal .4s;
+  }
+  
+  @keyframes modal {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -60px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  td button {
+    border: none;
+    outline: none;
+    background: transparent;
+  }
+  
+  td button i {
+    font-size: 25px;
+  }
+  
+  td button i:first-child {
+    margin-right: 10px;
+  }
